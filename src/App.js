@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import DogsList from './components/DogsList'
+import DogsListContainer from './components/DogsListContainer'
 
 class App extends Component {
   render() {
     return (
       <main>
-        <DogsList />
+        <DogsListContainer />
       </main>
     );
   }
